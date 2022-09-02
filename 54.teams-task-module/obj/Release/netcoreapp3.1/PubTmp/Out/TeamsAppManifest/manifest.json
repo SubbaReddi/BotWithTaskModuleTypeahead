@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "e4bad6ab-52d6-4646-8fcf-4dd03fd10ee5",
+  "packageName": "com.microsoft.teams.samples",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "SubbaBotAndTabApp",
+    "full": "AA Sample Bot"
+  },
+  "description": {
+    "short": "Test Task Module Scenario",
+    "full": "Simple Task Module Scenario Test"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "e4bad6ab-52d6-4646-8fcf-4dd03fd10ee5",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [ "*.ngrok.io", "subbapr2e4.azurewebsites.net", "subbatestdb.blob.core.windows.net" ],
+  "webApplicationInfo": {
+    "id": "e4bad6ab-52d6-4646-8fcf-4dd03fd10ee5",
+    "resource": "api://5df1-2604-3d09-2881-8f00-b9cb-5f27-9137-82f6.ngrok.io/e4bad6ab-52d6-4646-8fcf-4dd03fd10ee5"
+  }
+}

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TeamsTaskModule
+build_property.ProjectDir = D:\PersonalGit\BotWithTaskModuleTypeahead\csharp_dotnetcore\54.teams-task-module\
